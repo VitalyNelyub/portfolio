@@ -1,0 +1,186 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans Mono", monospace;
+  /* color: rgb(107, 111, 110); */
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+.username {
+  font-size: 32px;
+}
+
+.decorate {
+  color: red;
+}
+
+.candidate {
+  font-size: 14px;
+  /* color: antiquewhite; */
+}
+
+.content {
+  background-color: #222;
+  color: aliceblue;
+}
+
+.container {
+  padding: 60px;
+  /* max-width: 1440px; */
+}
+
+.header {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 5px 25px red;
+}
+
+.user-info {
+  display: flex;
+  row-gap: 7px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  gap: 40px;
+}
+
+.navigation_link {
+  font-size: 24px;
+  padding: 10px;
+  color: red;
+  transition: all 500ms;
+}
+
+.cuttent {
+  color: lime;
+}
+
+.navigation_link:hover,
+.navigation_link:focus {
+  color: lime;
+}
+
+button {
+  color: red;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+}
+
+.highlight {
+  background-color: rgb(246, 246, 246);
+  color: #222;
+}
+
+.icon {
+  fill: white;
+}
+
+.git-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.theme {
+  fill: black;
+}
+
+.main-article {
+  font-family: "Montserrat", sans-serif;
+  font-size: 54px;
+}
+
+.test {
+  /* padding: 40px; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  animation: bounceInLeft;
+  animation-duration: 3s;
+}
+
+.test-2 {
+  animation: bounceInRight;
+  animation-duration: 3s;
+}
+
+.main-info {
+  max-width: 60%;
+}
+
+.article {
+  /* padding: 60px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.animate {
+  width: 600px;
+  max-width: 600px;
+}
+
+.projects-btn {
+  font-size: 32px;
+  font-weight: 600;
+  padding: 40px 220px 40px 40px;
+  border: 3px solid red;
+  border-radius: 12px;
+  color: inherit;
+  margin-bottom: 50px;
+  transition: all 1000ms;
+}
+
+.projects-btn:hover,
+.projects-btn:focus {
+  padding: 40px 40px 40px 220px;
+  box-shadow: 1px 15px 15px red;
+  color: red;
+}
+
+.my-skills {
+  background-color: red;
+}
+
+.skills-info {
+  border-right: 5px solid white;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.skills-title {
+  font-size: 48px;
+  margin-bottom: 30px;
+  border-top: 2px solid white;
+  width: 80%;
+}
+
+.skills-text {
+  font-size: 24px;
+  width: 80%;
+  /* padding: 0 200px 0 0; */
+}
