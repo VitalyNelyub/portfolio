@@ -8,6 +8,7 @@ p {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-family: "Noto Sans Mono", monospace;
+  line-height: 1.5;
   /* color: rgb(107, 111, 110); */
 }
 
@@ -109,9 +110,10 @@ button {
 .main-article {
   font-family: "Montserrat", sans-serif;
   font-size: 54px;
+  margin-bottom: 20px;
 }
 
-.test {
+.title-animate {
   /* padding: 40px; */
   font-family: "Montserrat", sans-serif;
   font-size: 34px;
@@ -119,7 +121,7 @@ button {
   animation-duration: 3s;
 }
 
-.test-2 {
+.text-animate {
   animation: bounceInRight;
   animation-duration: 3s;
 }
@@ -131,6 +133,7 @@ button {
 .article {
   /* padding: 60px; */
   display: flex;
+  gap: 40px;
   align-items: center;
   justify-content: space-between;
 }
@@ -183,4 +186,16 @@ button {
   font-size: 24px;
   width: 80%;
   /* padding: 0 200px 0 0; */
+}
+
+.about-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+
+.about {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  line-height: 1.5;
 }
