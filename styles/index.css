@@ -74,6 +74,12 @@ a {
   transition: all 500ms;
 }
 
+.home {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .current {
   color: lime;
 }
@@ -99,8 +105,13 @@ button {
 }
 
 .icon {
-  fill: currentColor;
+  fill: white;
 }
+
+.theme {
+  fill: black;
+}
+
 
 .git-link {
   display: flex;
@@ -300,4 +311,8 @@ button {
 .images-finder,
 .images-news {
   width: 600px;
+}
+
+.filmoteka {
+  width: 400px;
 }
