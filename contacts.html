@@ -4,26 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
-        <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body class="content">
     <header class="header container">
-      <div class="user-info">
-        <h1>Nelyub Vitaly</h1>
-        <p>Front-end developer</p>
+      <div>
+        <a
+          href="https://vitalynelyub.github.io/resume-html/"
+          class="user-info"
+          target="_blank"
+        >
+          <h1 class="username">
+            <span class="decorate">< </span>Vitaly Nelyub<span class="decorate">
+              /></span
+            >
+          </h1>
+          <p class="candidate">Front-end developer</p>
+        </a>
       </div>
       <nav class="navigation">
         <a class="navigation_link" href="./index.html">Home</a>
         <a class="navigation_link" href="./about.html">About</a>
         <a class="navigation_link" href="./projects.html">Projects</a>
-        <a class="navigation_link cuttent" href="./contacts.html">Contacts</a>
+        <a class="navigation_link current" href="./contacts.html">Contacts</a>
       </nav>
       <div>
-        <a href="https://github.com/VitalyNelyub" target="_blank">Github</a>
+        <a
+          class="git-link"
+          href="https://github.com/VitalyNelyub"
+          target="_blank"
+        >
+          <svg class="svg" width="20" height="20">
+            <use
+              class="icon"
+              href="./images/symbol-defs.svg#icon-github"
+            ></use></svg
+          >Github</a
+        >
       </div>
       <div>
         <button id="change-background-button">
@@ -34,7 +55,6 @@
       </div>
     </header>
     <script src="./JS/index.js"></script>
-        <script src="./JS/animateChangePage.js"></script>
-
+    <script src="./JS/animateChangePage.js"></script>
   </body>
 </html>

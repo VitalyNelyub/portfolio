@@ -28,12 +28,23 @@
       </div>
       <nav class="navigation">
         <a class="navigation_link" href="./index.html">Home</a>
-        <a class="navigation_link cuttent" href="./about.html">About</a>
+        <a class="navigation_link current" href="./about.html">About</a>
         <a class="navigation_link" href="./projects.html">Projects</a>
         <a class="navigation_link" href="./contacts.html">Contacts</a>
       </nav>
       <div>
-        <a href="https://github.com/VitalyNelyub" target="_blank">Github</a>
+        <a
+          class="git-link"
+          href="https://github.com/VitalyNelyub"
+          target="_blank"
+        >
+          <svg class="svg" width="20" height="20">
+            <use
+              class="icon"
+              href="./images/symbol-defs.svg#icon-github"
+            ></use></svg
+          >Github</a
+        >
       </div>
       <div>
         <button id="change-background-button">
@@ -45,21 +56,99 @@
     </header>
     <section class="container">
       <h2 class="about-title title-animate">About me...</h2>
-      <p class="about text-animate">
-        My name is Vitaliy and I am excited to introduce myself as a Junior
-        Front-end developer. I have strong knowledge of HTML, CSS, JavaScript,
-        React, Node.js which I have got through my practical experience as well
-        as my education. My passion for web development has driven me to
-        continuous learning and improving my skills, and I am always eager to
-        take on new challenges. In addition to my technical skills, I am an
-        quick learner and a great communicator. I am good at working in a team
-        and am always willing to give a helping hand whenever it is needed. I
-        work well under pressure and can manage challenging tasks. I am
-        confident that I would be able to learn from your experienced team
-        members, as well as contribute my own ideas and expertise. I am excited
-        to continue growing as a developer and look forward to the opportunity
-        to do so with your team.
-      </p>
+      <div class="about-user">
+        <img class="user-photo" src="./images/user3.JPG" alt="Vitaliy Nelyub" >
+        <p class="about text-animate">
+          My name is Vitaliy and I am excited to introduce myself as a Junior
+          Front-end developer. I have strong knowledge of HTML, CSS, JavaScript,
+          React, Node.js which I have got through my practical experience as
+          well as my education. My passion for web development has driven me to
+          continuous learning and improving my skills, and I am always eager to
+          take on new challenges. In addition to my technical skills, I am an
+          quick learner and a great communicator. I am good at working in a team
+          and am always willing to give a helping hand whenever it is needed. I
+          work well under pressure and can manage challenging tasks. I am
+          confident that I would be able to learn from your experienced team
+          members, as well as contribute my own ideas and expertise. I am
+          excited to continue growing as a developer and look forward to the
+          opportunity to do so with your team.
+        </p>
+      </div>
+      <div>
+        <ul class="stack-list">
+          <li class="stack-item animate__animated animate__flip">
+            <svg width="80" height="80">
+              <use
+                class="icon"
+                href="./images/symbol-defs.svg#icon-html-five"
+              ></use>
+            </svg>
+          </li>
+          <li class="stack-item animate__animated animate__flipInX">
+            <svg width="80" height="80">
+              <use class="icon" href="./images/symbol-defs.svg#icon-css3"></use>
+            </svg>
+          </li>
+          <li class="stack-item animate__animated animate__flip">
+            <svg width="80" height="80">
+              <use class="icon" href="./images/symbol-defs.svg#icon-sass"></use>
+            </svg>
+          </li>
+          <li class="stack-item animate__animated animate__flipInX">
+            <svg width="80" height="80">
+              <use
+                class="icon"
+                href="./images/symbol-defs.svg#icon-webpack"
+              ></use>
+            </svg>
+          </li>
+          <li class="stack-item animate__animated animate__flip">
+            <svg width="80" height="80">
+              <use
+                class="icon"
+                href="./images/symbol-defs.svg#icon-github"
+              ></use>
+            </svg>
+          </li>
+          <li class="stack-item animate__animated animate__flipInX">
+            <svg width="80" height="80">
+              <use
+                class="icon"
+                href="./images/symbol-defs.svg#icon-javascript"
+              ></use>
+            </svg>
+          </li>
+          <li class="stack-item animate__animated animate__flip">
+            <svg width="80" height="80">
+              <use
+                class="icon"
+                href="./images/symbol-defs.svg#icon-react"
+              ></use>
+            </svg>
+          </li>
+          <li class="stack-item animate__animated animate__flipInX">
+            <svg width="80" height="80">
+              <use
+                class="icon"
+                href="./images/symbol-defs.svg#icon-redux"
+              ></use>
+            </svg>
+          </li>
+          <li class="stack-item animate__animated animate__flip">
+            <svg width="80" height="80">
+              <use
+                class="icon"
+                href="./images/symbol-defs.svg#icon-node-dot-js"
+              ></use>
+            </svg>
+          </li>
+          <li class="stack-item animate__animated animate__flipInX">
+            <svg width="80" height="80">
+              <use class="icon" href="./images/symbol-defs.svg#icon-npm"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
     </section>
     <script src="./JS/index.js"></script>
     <script src="./JS/animateChangePage.js"></script>
